@@ -1,73 +1,48 @@
 # Vista de Contexto
 
-Este diagrama muestra cómo interactúa el sistema.
+Este diagrama muestra cómo interactúan los usuarios con el sistema.
 
 ```mermaid
 graph TD
     Usuario[Usuario] -->|Usa| Sistema[Sistema Web]
     Sistema -->|Consulta| BD[Base de Datos]
     Sistema -->|Conecta| API[API Externa]
+    Admin[Administrador] --> Sistema
 
 
 ---
 
-## 🧠 EXPLICACIÓN (para que entiendas)
+# 🚨 MUY IMPORTANTE (NO LO CAMBIES)
 
-Esto significa:
-
-- `graph TD` → el diagrama va de arriba hacia abajo  
-- `Usuario --> Sistema` → el usuario usa el sistema  
-- `Sistema --> BD` → el sistema consulta la base de datos  
-- `Sistema --> API` → el sistema se conecta a algo externo  
-
-👉 Ya estás haciendo un **diagrama tipo C4 básico**
+✔ No borres las líneas de ```mermaid  
+✔ No metas texto dentro del diagrama  
+✔ La explicación va **fuera del bloque**
 
 ---
 
-# 💾 PARTE 3: GUARDAR (MUY IMPORTANTE)
+# 💾 DESPUÉS DE PEGAR
 
-Baja hasta abajo de la página y verás:
+1. Click en **Commit changes**  
+2. Espera 1–2 minutos  
+3. Abre tu página  
 
-👉 **Commit changes**
-
-Haz esto:
-
-1. No cambies nada
-2. Solo da click en:
-
-👉 **Commit changes**
+👉 https://rubi-aah.github.io/Actividad-15/
 
 ---
 
-# ✅ PARTE 4: VERIFICAR
+# ✅ RESULTADO ESPERADO
 
-Después de guardar:
-
-1. Verás el archivo ya creado  
-2. Debe llamarse:
-
-👉 `contexto.md`
+✔ Ya no sale error rojo  
+✔ Se ve el diagrama  
+✔ Aparece “Administrador”  
+✔ Cumples automatización  
 
 ---
 
-# ⚠️ MUY IMPORTANTE (ERROR COMÚN)
+# 👉 CUANDO TERMINES
 
-👉 Puede que NO veas el diagrama como dibujo todavía  
-👉 Solo verás el código
+Dime:
 
-✔ Eso es NORMAL  
-✔ El diagrama se verá cuando activemos GitHub Pages (paso 6)
+👉 **“ya se ve el diagrama”**
 
----
-
-# 🧪 MINI PRUEBA (OPCIONAL)
-
-Si quieres probar que sí funciona, edita otra vez el archivo:
-
-1. Click en el lápiz ✏️ (editar)
-2. Agrega esta línea abajo:
-
-```mermaid
-Admin --> Sistema
-
-
+y te paso el **último paso: armar tu PDF listo para entregar** 📄🔥
