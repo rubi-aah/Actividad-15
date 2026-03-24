@@ -2,6 +2,8 @@
 
 Este diagrama muestra cómo interactúan los usuarios con el sistema.
 
+
+```md
 ```mermaid
 graph TD
     Usuario[Usuario] -->|Autenticación| Auth[Módulo de Autenticación]
